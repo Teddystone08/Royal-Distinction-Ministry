@@ -1,0 +1,129 @@
+nav{
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px solid rgb(234, 238, 21);
+    box-shadow: 0 0 20px gray;
+    position: fixed;
+    width: 100%;
+    background: lightblue;
+    z-index: 1;
+}
+
+.logo{
+    height: 70px;
+    border-radius: 70%;
+    border: 3px solid rgb(247, 247, 121);
+    box-shadow: 0px 0px 25px rgb(234, 238, 21);
+    margin-top: 12px;
+}
+
+#header{
+    font-size: 15px;
+    color: yellow;
+    text-align: left;
+    font-style: italic;
+    padding: 7px 15px;
+    text-shadow: 5px 2px 5px blue;    
+}
+
+#sign{
+    display: flex;
+}
+
+.fn{
+    max-width: fit-content;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.man{
+    display: flex;
+    list-style: none; 
+    justify-content: center;
+    
+}
+
+.man li{
+    padding: 15px;    
+       
+}
+
+.man a{
+    text-decoration: none;
+    
+}
+
+.sub{
+    list-style: none;
+    padding: 10px;
+    width: max-content;
+    display: none;
+    background-color: lightblue;
+    position: absolute;
+}
+
+.sub li{
+    padding: 0px;
+    line-height: 30px;
+    position: relative;
+    text-align: left;
+}
+
+.sub a{
+    margin-left: 0px;
+    
+}
+
+#man li :hover{
+    color: rgb(234, 238, 21);
+    display: block;
+}
+
+#man li:hover .sub{
+    display: block;
+}
+
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+}
+
+form{
+    width: 50%;
+}
+
+.search {
+    width: 100%;
+    height: 30px;
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+    background-color: rgb(247, 247, 121);
+    
+}
+
+.search_icon{
+    border-radius: 50%;
+    border: none; 
+    position: absolute; 
+    margin-left: -25px;  
+    padding-top: 6px;
+    background-color:rgb(247, 247, 121)
+}
+
+.socials{
+    margin-left: 50px;
+}
+
+.sit{
+    height: 35px;
+    padding: 10px;
+    border-radius: 60px;
+
+}
