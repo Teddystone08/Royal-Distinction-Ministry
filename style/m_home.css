@@ -1,24 +1,45 @@
-body{
-    margin:0%;
-    padding:0%;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: azure;
-}
 
-.main{
+.h_img{
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: column;
+}
 
+.label, .label2{
+    font-size: 5rem;
+    font-weight: bold;
+    position: absolute;
+    top: 2em;
+    box-shadow: 0 0 10px black;
+    
+    
+}
+
+.label2{
+    top: 11em;
+}
+
+.label a, .label2 a{
+    text-decoration: none;
+    color: blue;
 }
 
 
+.card{
+    display: none;
+}
 .serm_lg{
     padding-top: 90px;
-    border: 2px solid blueviolet;
-    height: 400px;
-    width: 400px;
+    height: 40%;
+    width: 100%;
 }
+
+.img_ent{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
 
 .activity{
     margin-top: 140px;
@@ -29,14 +50,23 @@ body{
 }
 
 .request{
-    margin-left: 80px;
+    display: flex;
+}
 
+
+
+.serm_1{
+    margin: 0;
+    height: 40%;
+    width: 100%;
 }
 
 .serm{
     height: 250px;
     width: 250px;
     padding: 28px;
+    display: none;
+    
         
 }
 
@@ -79,13 +109,17 @@ p div{
 }
 
 .event{
-    height: 200px;
+    height: 300px;
     width: 100%;
     background-color: lightblue;
     display: flex;
     text-align: center;
     justify-content: space-evenly;  
     color: blue;  
+}
+
+.ttable{
+    display: none;
 }
 
 .event h4{
@@ -99,4 +133,5 @@ p div{
     margin: 30px;
     text-align: justify;
 }
+
 

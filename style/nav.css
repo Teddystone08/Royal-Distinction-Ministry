@@ -1,43 +1,44 @@
-nav{
+#header{
+    font-size: 18px;
+    color: yellow;
+    text-align: left;
+    font-style: italic;
+    text-shadow: 5px 2px 5px blue;  
+    display: flex; 
+    flex-wrap: nowrap; 
+    align-items: center;
+    
+}
+.nav{
+    background-color: aqua;
     height: 85px;
+    width:auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
     border-bottom: 3px solid rgb(234, 238, 21);
     box-shadow: 0 0 20px gray;
     position: fixed;
     width: 100%;
-    background: lightblue;
     z-index: 1;
 }
 
 .logo{
-    height: 70px;
+    height: 80px;
     border-radius: 70%;
     border: 3px solid rgb(247, 247, 121);
     box-shadow: 0px 0px 25px rgb(234, 238, 21);
     margin-top: 12px;
+    cursor: pointer;
+    margin: 0;
 }
 
-#header{
-    font-size: 15px;
-    color: yellow;
-    text-align: left;
-    font-style: italic;
-    padding: 7px 15px;
-    text-shadow: 5px 2px 5px blue;    
+.name{
+    margin-left: 7px;
+}
+.fn, .socials{
+    display: none;
 }
 
-#sign{
-    display: flex;
-}
-
-.fn{
-    max-width: fit-content;
-    padding: 15px;
-    font-weight: bold;
-    font-size: 13px;
-}
 
 .man{
     display: flex;
@@ -94,12 +95,9 @@ nav{
     justify-content: center;
 }
 
-form{
-    width: 50%;
-}
 
-.search {
-    width: 100%;
+/*.search {
+    width: 40%;
     height: 30px;
     border-radius: 40px;
     border: none;
@@ -111,11 +109,10 @@ form{
 .search_icon{
     border-radius: 50%;
     border: none; 
-    position: absolute; 
-    margin-left: -25px;  
     padding-top: 6px;
     background-color:rgb(247, 247, 121)
 }
+*/
 
 .socials{
     margin-left: 50px;
@@ -126,4 +123,23 @@ form{
     padding: 10px;
     border-radius: 60px;
 
+}
+.manu-img{
+    position: fixed;
+    right: 5px;
+}
+.manu{
+    height: 80px;
+    width: 60px;
+    margin: 0;
+    
+    
+}
+
+@media (max-width: 370px) {
+    .name{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
 }

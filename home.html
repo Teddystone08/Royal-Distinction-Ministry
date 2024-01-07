@@ -5,24 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/gb.css">
     <link rel="stylesheet" href="/style/nav.css" type="text/css">
-    <link rel="stylesheet" href="/style/m_home.css" type="text/css">
-    <link rel="stylesheet" href="/style/footer.css" type="text/css">
+    <link rel="stylesheet" href="/style/m_home.css">
+    <link rel="stylesheet" href="/style/footer.css">
+    
     <title>Home</title>
 </head>
 
 <body>
-    <header>
-         <nav class="nav">
-        <div id="sign" class="sign">
+    <div class="nav" id="top">
+        <div class="header" id="header">
             <img src="./images/RDI_logo.jpg" alt="logo" id="logo" class="logo">
-            
-            <div id="header">
-                <h2>Royal Distinction <br> International Ministries</h2>                
-            </div><!--end of header-->
-         </div><!--end of sign-->
-        
-            <div class ="fn">
+                <h2 class="name" id="royal">Royal Distinction International Ministries</h2> 
+                    
+        </div><!--end header-->
+
+        <div class ="fn">
                 <ul class="man" id="man">
                     <li><a href="./home.html">HOME</a></li>
 
@@ -64,83 +63,81 @@
 
             </div><!--end of fn-->
 
-            <div class="nav-right">
-            <form action="#" id="search">
-                <input type="search" placeholder="search" id="bar" class="search">
-                <button id="search_icon" class="search_icon">
-                    <img src="./images/SVG/magnifying-glass.svg" alt="search" id="icon" >
-                </button>
-            </form>
-            <!--end of form-->
+                        <div id="smid" class="socials">
+                            <img src="./images/SVG/facebook.svg" alt="fb" class="sit" id="fb">
+                            <img src="./images/SVG/youtube.svg" alt="yt" class="sit" id="yt">
+                            <img src="./images/SVG/instagram-with-circle.svg" alt="instagram-with-circle" class="sit" id="inst">
+                        </div>
 
-            <div id="smid" class="socials">
-                <img src="./images/SVG/facebook.svg" alt="fb" class="sit" id="fb">
-                <img src="./images/SVG/youtube.svg" alt="yt" class="sit" id="yt">
-                <img src="./images/SVG/instagram-with-circle.svg" alt="instagram-with-circle" class="sit" id="inst">
-            </div>
+                        <div class="manu-img">
+                            <img src="/images/PNG/Menu-white.png" alt="manu" class="manu" id="manu_white">           
+                        </div>
             
-            <!--end smid-->
+            </div><!--End nav --->
 
-
-            </div>
-            
-            <!--end of nav-right-->
-
-        </nav><!--end of nav-->
-    </header>
 
                             <!--Main body-->
     <main>
-         <div class="main">
-        <div>
-            <img src="./images/listn1.jpg" alt="phote_serm" class="serm_lg">
-        </div>
-        <!--end of sermon-->
+        <div class="home">
+            <div class="card_lg">
+                <div class="label" >
+                    <a href="#">Sermon</a>
+                </div>
+                <div>
+                    <a href="/Sermon.html"><img src="./images/listn1.jpg" alt="phote_serm" class="serm_lg"></a>
+                    
+                </div>
+                
 
-        <div class="activity">
-            <div class="head">
-                <h2>Sermon</h2>
             </div>
+            
+            
 
-            <div>
+            <div class="card">
                <img src="./images/listn2.jpg" alt="photo_serm1" class="serm">
                
-               <p id="live" class="serm_info">
-                <caption>live:</caption>
-                <br>
-                     Passion or Lust the devils tool
-                
-            </p> 
+               <div class="serm_info">
+                <p>live:</p>
+                <p>
+                    Passion or Lust the devils tool  
+                </p>
+
+                </div>
             </div>
             
-            <div>
+            <div class="card">
               <img src="./images/serm1.jpg" alt="photo_serm1" class="serm"> 
               
-              <p id="Listen" class="serm_info">
-                <caption>listen:</caption>
-                <br>            
-                     Born to be great
-        
-              </p> 
+                <div id="Listen" class="serm_info">
+                    <p>listen:</p>
+                    <p>
+                        Born to be great
+                    </p> 
+              </div>
+              
             </div>
 
-            <div>
+            <div class="card">                
               <img src="./images/felw1.jpg" alt="" class="serm"> 
-              <p id="podcast" class="serm_info">
-                <caption>Listen:</caption>
-                <br>
-                    Work man of God
-            </p> 
-            </div>
-            
+                <div id="podcast" class="serm_info">
+                    <p>Listen:</p>
+                    <p>
+                        Work man of God
+                    </p> 
+                </div> 
+            </div>           
 
 
         </div>
+    
+        <!--end of sermon-->
 
-        
               
         <div class="event">
-                <div>
+            <div>
+                <a href="#"><img src="/images/event.jpg" class="img_ent" ></a>
+            </div>
+                <div class="ttable">
                     <h4>Today</h4>
                     <div class="service" id="Today">
                         New Testament Glory Service
@@ -148,14 +145,15 @@
                 </div>
                 
                 
-                <div>
+                <div class="ttable">
                     <h4>Upcoming</h4>
                     <div class="service" id="Upcoming">
                         Moment of preparation and Power
                     </div>
                 
                 </div>
-                <div>
+                <div class="ttable
+                ">
                     <h4>Past events</h4>
                     <div class="service" id="past_event">
                         Community Outreach
@@ -169,23 +167,40 @@
             
             
         </div>
-        <div class="request">
-                    <img src="./images/pray3.jpg" alt="photo_pray" class="serm">        
-                    <img src="./images/felw2.jpg" alt="photo_fel" class="serm">
-                    <img src="./images/chu1.jpg" alt="photo_chu" class="serm">
-                    <img src="./images/min1.jpg" alt="photo_min" class="serm">
 
-                </div><!--end main-->
-    </main>
-           <!--end of main-->  
+        <div class="request">
+            <div class="label2">
+                <a href="#">Request</a> 
+            </div>
+           
+            <div class="serm_1">
+                <a href="#"><img src="./images/pray3.jpg" alt="photo_pray" class="min"></a> 
+            </div>
+            <div class="serm">
+                <a href="#"><img src="./images/felw2.jpg" alt="photo_fel" class="serm"></a>
+            </div>  
+            <div class="serm">
+                <a href="#"><img src="./images/chu1.jpg" alt="photo_chu" class="serm"></a> 
+            </div>
             
+            <div class="serm">
+                <a href="#"><img src="./images/min1.jpg" alt="photo_min" class="serm"></a>
+            </div>
+                    
+                   
+                    
+                </div><!--end main-->
+    
+           
+         <!--end of main-->  
+    </main>    
         
 <footer>
     <div class="footer">
-            <div id="sm">
-                <img src="./images/SVG/facebook.svg" alt="fb" id="sm"></img>
-                <img src="./images/SVG/instagram-with-circle.svg" alt="insta" id="sm"></img>
-                <img src="./images/SVG/youtube.svg" alt="youtube" id="sm"></img>
+            <div  class="social">
+             <a href="#"><img src="./images/SVG/facebook.svg" alt="fb" id="sm" class="fb"></img></a>   
+               <a href="#"><img src="./images/SVG/instagram-with-circle.svg" alt="insta" id="sm" class="insta"></img></a> 
+                <a href="#"><img src="./images/SVG/youtube.svg" alt="youtube" id="sm" class="yt"></img></a>
             </div>
 
             <div class="ft_home">

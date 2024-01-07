@@ -1,10 +1,8 @@
 .footer{
-    height: 150px;
-    background-color: lightblue;
+    height: auto;
+    background: aqua;
     border-top: 2px solid darkblue;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 10px;
+    display: flex;    
 }
 
 .footer li{
@@ -15,12 +13,14 @@
 .footer a{
     text-decoration: none;
     color: darkblue;
-   
+    padding: 3px;
 }
 
-#sm{
+.social{
     padding-top: 10px;
     height: 35px;
-    margin: 5px;
-    
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
 }
+
