@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/style/nav.css" type="text/css">
     <link rel="stylesheet" href="/style/m_home.css">
     <link rel="stylesheet" href="/style/footer.css">
+    <link rel="stylesheet" href="style/@media.css">
     
     <title>Home</title>
 </head>
@@ -62,6 +63,10 @@
                 </ul>
 
             </div><!--end of fn-->
+                    <div class="search">
+                        <input type="text"  placeholder="search" id ="input" class="input_search">
+                        <img src="/images/SVG/magnifying-glass.svg" alt="search" id="glass" class="input">
+                    </div>
 
                         <div id="smid" class="socials">
                             <img src="./images/SVG/facebook.svg" alt="fb" class="sit" id="fb">
@@ -79,22 +84,19 @@
                             <!--Main body-->
     <main>
         <div class="home">
-            <div class="card_lg">
-                <div class="label" >
-                    <a href="#">Sermon</a>
-                </div>
-                <div>
+            <div class="label" >
+                <a href="#">Sermon</a>
+            </div>
+            <div class="card" id="card-main">
+                <div class="card-main">
                     <a href="/Sermon.html"><img src="./images/listn1.jpg" alt="phote_serm" class="serm_lg"></a>
                     
                 </div>
                 
-
             </div>
-            
-            
-
-            <div class="card">
-               <img src="./images/listn2.jpg" alt="photo_serm1" class="serm">
+                     
+            <div class="card card-air" id="card-1">
+               <img src="./images/listn2.jpg" alt="photo_serm" class="serm">
                
                <div class="serm_info">
                 <p>live:</p>
@@ -105,7 +107,7 @@
                 </div>
             </div>
             
-            <div class="card">
+            <div class="card card-air" id="card-2">
               <img src="./images/serm1.jpg" alt="photo_serm1" class="serm"> 
               
                 <div id="Listen" class="serm_info">
@@ -117,7 +119,7 @@
               
             </div>
 
-            <div class="card">                
+            <div class="card card-air" id="card-3">                
               <img src="./images/felw1.jpg" alt="" class="serm"> 
                 <div id="podcast" class="serm_info">
                     <p>Listen:</p>
@@ -134,7 +136,7 @@
 
               
         <div class="event">
-            <div>
+            <div class="cover">
                 <a href="#"><img src="/images/event.jpg" class="img_ent" ></a>
             </div>
                 <div class="ttable">
@@ -152,8 +154,7 @@
                     </div>
                 
                 </div>
-                <div class="ttable
-                ">
+                <div class="ttable">
                     <h4>Past events</h4>
                     <div class="service" id="past_event">
                         Community Outreach
@@ -172,18 +173,18 @@
             <div class="label2">
                 <a href="#">Request</a> 
             </div>
-           
-            <div class="serm_1">
+         
+            <div class="card main-req">
                 <a href="#"><img src="./images/pray3.jpg" alt="photo_pray" class="min"></a> 
             </div>
-            <div class="serm">
+            <div class="card card-req">
                 <a href="#"><img src="./images/felw2.jpg" alt="photo_fel" class="serm"></a>
             </div>  
-            <div class="serm">
+            <div class="card card-req">
                 <a href="#"><img src="./images/chu1.jpg" alt="photo_chu" class="serm"></a> 
             </div>
             
-            <div class="serm">
+            <div class="card card-req">
                 <a href="#"><img src="./images/min1.jpg" alt="photo_min" class="serm"></a>
             </div>
                     
@@ -198,9 +199,9 @@
 <footer>
     <div class="footer">
             <div  class="social">
-             <a href="#"><img src="./images/SVG/facebook.svg" alt="fb" id="sm" class="fb"></img></a>   
-               <a href="#"><img src="./images/SVG/instagram-with-circle.svg" alt="insta" id="sm" class="insta"></img></a> 
-                <a href="#"><img src="./images/SVG/youtube.svg" alt="youtube" id="sm" class="yt"></img></a>
+             <a href="#"><img src="./images/SVG/facebook.svg" alt="fb" id="sm" class="fb so"></img></a>   
+               <a href="#"><img src="./images/SVG/instagram-with-circle.svg" alt="insta" id="sm" class="insta so"></img></a> 
+                <a href="#"><img src="./images/SVG/youtube.svg" alt="youtube" id="sm" class="yt so"></img></a>
             </div>
 
             <div class="ft_home">

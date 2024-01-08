@@ -2,12 +2,15 @@
     height: auto;
     background: aqua;
     border-top: 2px solid darkblue;
-    display: flex;    
+    display: flex; 
+    padding: 15px; 
+    justify-content: space-evenly;  
 }
 
 .footer li{
     list-style: none;
-   
+    padding: 5px;
+       
 }
 
 .footer a{
@@ -15,12 +18,18 @@
     color: darkblue;
     padding: 3px;
 }
-
 .social{
-    padding-top: 10px;
-    height: 35px;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
+    width: 15%;
+    height: auto;       
 }
+
+.so{
+    height: 40%;
+    align-items: center;    
+}
+
+.ft_home{
+    text-align: center;
+}
+
 

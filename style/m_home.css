@@ -1,42 +1,47 @@
-
-.h_img{
+main{
+    padding-top: 6rem;
+    
+}
+.home{
     display: flex;
-    flex-direction: column;
+    margin: 5px;
 }
-
-.label, .label2{
-    font-size: 5rem;
-    font-weight: bold;
+.label{
     position: absolute;
-    top: 2em;
-    box-shadow: 0 0 10px black;
-    
-    
+    left: 42%;
 }
-
-.label2{
-    top: 11em;
-}
-
 .label a, .label2 a{
+    font-size: 3rem;
+    font-weight: bold;
     text-decoration: none;
     color: blue;
+    text-decoration-line: underline;
+}
+.label2{
+    position: absolute;
+    left: 42%;
+
 }
 
+.card-air, .card-req{
+    margin: 6rem 1rem ;
+    height: 20rem;
+    width: 20%;
 
-.card{
-    display: none;
-}
-.serm_lg{
-    padding-top: 90px;
-    height: 40%;
-    width: 100%;
 }
 
-.img_ent{
+.serm{
     height: 100%;
     width: 100%;
-    margin-bottom: 20px;
+   
+    
+}
+
+.cover img{
+    height: 300px;
+    width: 120%;
+    display: none;
+    
 }
 
 
@@ -51,24 +56,9 @@
 
 .request{
     display: flex;
+    margin: 5px;
 }
 
-
-
-.serm_1{
-    margin: 0;
-    height: 40%;
-    width: 100%;
-}
-
-.serm{
-    height: 250px;
-    width: 250px;
-    padding: 28px;
-    display: none;
-    
-        
-}
 
 .head h2{
     position: absolute;
@@ -100,14 +90,6 @@ p div{
     width: 100%
 }
 
-
-.contact img{
-    height: 250px;
-    width: 250px; 
-    padding: 20px;
-    
-}
-
 .event{
     height: 300px;
     width: 100%;
@@ -118,10 +100,6 @@ p div{
     color: blue;  
 }
 
-.ttable{
-    display: none;
-}
-
 .event h4{
     background: rgb(185, 185, 53);
     height: 25px;
@@ -129,9 +107,18 @@ p div{
 
 }
 
+
 .service{
     margin: 30px;
     text-align: justify;
+}
+
+img > .serm_lg{
+    width: 100%;
+
+}
+.min{
+    width: 42.7rem;
 }
 
 
